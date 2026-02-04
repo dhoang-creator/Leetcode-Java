@@ -1,6 +1,3 @@
-import java.util.HashMap;
-import java.util.Map;
-
 // the below is your nativist approach to the problem and the right one is the one further below
 // class BestTimeToBuy {
 //     public int maxProfit(int[] prices) {
