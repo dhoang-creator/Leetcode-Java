@@ -44,3 +44,12 @@ public boolean isPalindromeCorrect(String s) {
     }
     return true;
 }
+
+private static void runTest(Solution sol, String input, boolean expected) {
+    boolean result = sol.isPalindrome(input);
+    System.out.println(
+        "Input: \"" + input + "\" | Expected: " + expected +
+            "| Got: " + result +
+            (result == expected ? " Good" : "Bad")
+    )
+}
