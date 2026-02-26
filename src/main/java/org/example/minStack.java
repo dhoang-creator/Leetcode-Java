@@ -41,7 +41,6 @@ class minStack {
 
     public MinStack() {
         st = new ArrayList<>();
-
     }
 
     public void push(int val) {
